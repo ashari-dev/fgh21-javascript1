@@ -13,13 +13,10 @@ const data = {
   website: "hildegard.org",
 };
 
-const tambahData = {
-  name: "Muhammad Ashari",
-  email: "boykid923@gmail.com",
-  hobby: ["traveling", "sport", "coding"],
-};
+const editData = { name: "Muhammad Ashari", email: "boykid923@gmail.com" };
+const tambahData = { hobby: ["traveling", "sport", "coding"] };
 
-const dataBaru = { ...data, ...tambahData };
+const dataBaru = { ...data, ...editData, ...tambahData };
 
 console.log(dataBaru);
 console.log(
