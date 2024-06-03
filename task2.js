@@ -1,23 +1,18 @@
-const bhsIndonesia = 90;
-const bhsInggris = 85;
-const mtk = 70;
-const IPA = 65;
+const bahasaIndonesia = 80;
+const bahasaInggris = 90;
+const mtk = 89;
+const ipa = 69;
 
-const nilaiRataRata = (bhsIndonesia + bhsInggris + mtk + IPA) / 4;
+const rataRata = (bahasaIndonesia + bahasaInggris + mtk + ipa) / 4;
 
-if (nilaiRataRata >= 90) {
-  console.log(`Nilai Rata-Rata : ${nilaiRataRata}`);
-  console.log("Grade : A");
-} else if (nilaiRataRata >= 80) {
-  console.log(`Nilai Rata-Rata : ${nilaiRataRata}`);
-  console.log("Grade : B");
-} else if (nilaiRataRata >= 70) {
-  console.log(`Nilai Rata-Rata : ${nilaiRataRata}`);
-  console.log("Grade : C");
-} else if (nilaiRataRata >= 60) {
-  console.log(`Nilai Rata-Rata : ${nilaiRataRata}`);
-  console.log("Grade : D");
+if (rataRata >= 90) {
+  console.log(`Rata-Rata : ${rataRata} \nGrade : A`);
+} else if (rataRata >= 80) {
+  console.log(`Rata-Rata : ${rataRata} \nGrade : B`);
+} else if (rataRata >= 70) {
+  console.log(`Rata-Rata : ${rataRata} \nGrade : C`);
+} else if (rataRata >= 60) {
+  console.log(`Rata-Rata : ${rataRata} \nGrade : D`);
 } else {
-  console.log(`Nilai Rata-Rata : ${nilaiRataRata}`);
-  console.log("Grade : E");
+  console.log(`Rata-Rata : ${rataRata} \nGrade : E`);
 }
