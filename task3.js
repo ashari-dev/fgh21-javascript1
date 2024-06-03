@@ -3,8 +3,8 @@ let segitiga = "";
 
 if (typeof printSegitiga == "number") {
   for (let i = printSegitiga; i > 0; i--) {
-    for (let k = 1; k <= i; k++) {
-      segitiga += k + " ";
+    for (let j = 1; k <= i; j++) {
+      segitiga += j + " ";
     }
     segitiga += "\n";
   }
