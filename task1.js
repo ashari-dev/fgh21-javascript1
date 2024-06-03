@@ -35,3 +35,9 @@ const biodata = {
   ],
   interestInCoding: true,
 };
+
+// akses nama
+console.log(biodata.name);
+
+//akses nama sekolah
+console.log(biodata.schoolList[1].name);
