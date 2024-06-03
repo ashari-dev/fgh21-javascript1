@@ -1,4 +1,4 @@
-const data = {
+let data = {
   id: 1,
   name: "Leanne Graham",
   username: "Bret",
@@ -13,12 +13,12 @@ const data = {
   website: "hildegard.org",
 };
 
-const editData = { name: "Muhammad Ashari", email: "boykid923@gmail.com" };
-const tambahData = { hobby: ["traveling", "sport", "coding"] };
+let editData = { name: "Muhammad Ashari", email: "boykid923@gmail.com" };
+let tambahData = { hobby: ["traveling", "sport", "coding"] };
 
-const dataBaru = { ...data, ...editData, ...tambahData };
+let dataBaru = { ...data, ...editData, ...tambahData };
 
 console.log(dataBaru);
 console.log(
-  `street : ${dataBaru["address"]["street"]}, city : ${dataBaru["address"]["city"]}`
+  `street : ${dataBaru["address"]["street"]}, city : ${dataBaru["address"]["suite"]}`
 );
