@@ -20,5 +20,5 @@ let dataBaru = { ...data, ...editData, ...tambahData };
 
 console.log(dataBaru);
 console.log(
-  `street : ${dataBaru["address"]["street"]}, city : ${dataBaru["address"]["suite"]}`
+  `street : ${dataBaru.address.street}, city : ${dataBaru.address.suite}`
 );
